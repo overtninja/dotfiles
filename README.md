@@ -1,29 +1,27 @@
-# Overview
-Symlink these files into your home directory
+# Installation
+### Download and change folder
+```
+cd ~
+git clone https://github.com/overtninja/dotfiles.git
 
-    git clone https://github.com/pgporada/dotfiles
-    ln -s dotfiles/.vimrc .
-    # You get the point.
+cd dotfiles
+```
+### Run install
+```
+./install.sh
+```
 
-- - - -
-# Useful aliases for ~/.bashrc
+# Uninstallation
 
-    alias dc='cd'
-    alias diff='colordiff'
-    alias egrep='egrep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias grep='grep --color=auto'
-    alias gti='git'
-    alias l='ls -CF'
-    alias la='ls -A'
-    alias less='less -R'
-    alias ll='ls -alF'
-    alias ls='ls --color=auto'
-    alias nethack-online='ssh nethack@nethack.alt.org ; clear'
-    alias tmux='tmux -2'
-    alias tron-online='ssh sshtron.zachlatta.com ; clear'
-    alias emacs='vim'
+### Change to dotfiles folder
+```
+cd ~/dotfiles
+```
 
+### Run uninstaller
+```
+./uninstall.sh
+```
 - - - -
 # Cool tools
 

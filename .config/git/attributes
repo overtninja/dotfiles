@@ -1,3 +1,0 @@
-*-vault.yml diff=ansible-vault filter=ansible-vault
-vault-*.yml diff=ansible-vault filter=ansible-vault
-*.vault.yml diff=ansible-vault filter=ansible-vault

@@ -1,13 +1,13 @@
 [user]
-	email = pporada@letsencrypt.org
-	name = Phil Porada
-	signingkey = D7E4296E
+	email = overtninja@users.noreply.github.com
+	name = overtninja
+	#signingkey =
 
-[gpg]
-    program = qubes-gpg-client-wrapper
+#[gpg]
+#    program = qubes-gpg-client-wrapper
 
-[commit]
-    gpgsign = true
+#[commit]
+#    gpgsign = true
 
 [diff]
     tool = vimdiff
@@ -19,7 +19,7 @@
     prompt = false
 
 #[push]
-#	gpgsign = true
+#		gpgsign = true
 
 [alias]
     pickle-that = "!git commit --amend -m \"$(git log --format=%s -n1) 🥒\" -m \"$(echo)$(git log --format=%b -n1)\""
